@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" 
+	      name="#PLAYERNAME# 网关" 
+	      security="5" 
+	      allowsDefaultBootModule="false" 
+	      icon="DLCPC2"
+	      type="1" >
+
+<adminPass pass="admin" />
+<account username="#PLAYERNAME#" password="admin" type="ADMIN" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="1" />
+<portsForCrack val="5" />
+<trace time="50" />
+<firewall level="11" solution="nj7834fhf5f64524rfi3g56" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+
+<dlink target="playerBackup" />
+
+</Computer>

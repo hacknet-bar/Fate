@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SuperData2" 
+          name="SuperData 公司" 
+          ip="2.2.2.6"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 6881</ports>
+  <firewall level="10" solution="thisisfirewall" additionalTime="0.3"/>
+  <trace time="100" />
+  
+  <CustomConnectDisplayDaemon />
+  <dlink target="SuperData2" />
+  <dlink target="SuperDataIRC" />
+
+
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  
+</Computer>

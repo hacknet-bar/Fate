@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerBackup" 
+	      name="BSICO 驱动" 
+	      security="5" 
+	      allowsDefaultBootModule="false" 
+	      icon="chip"
+	      type="1" >
+
+<adminPass pass="adminBsico" />
+
+<ports>21, 6881，192</ports>
+
+<proxy time="1" />
+<portsForCrack val="5" />
+<trace time="50" />
+<firewall level="11" solution="nj7834fhf5f64524rfi3g56" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+
+<file path="home" name="Bsico.txt">保障您的信息安全. ---Bsico.org</file>
+</Computer>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="APTDrop"
+          name="APT 共享服务器"
+		      ip="786.8.8.8"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+<uploadServerDaemon name="Accut Project Team共享" folder="Drop"
+                    needsAuth="false" color="17,29,48" hasReturnViewButton="true"/>
+
+<adminPass pass="APT" /> 
+
+<ports>22, 21, 6881, 443</ports>
+  <proxy time="3" />
+  <portsForCrack val="7" />
+  <firewall level="-1" />
+  <trace time="95" />
+  <admin type="none"/>
+
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+</Computer>

@@ -1,0 +1,18 @@
+<ConditionalActions>
+  
+<OnConnect target="APTDHS">
+<RunFunction FunctionName="setAssetServer:APTDrop" FunctionValue="1" />
+	<RunFunction FunctionName="setHubServer:APTDHS" />
+	<AddIRCMessage Author="Vap0r" TargetComp="APTDHS" Delay="-2">听说等会儿有新人要来，大家准备一下</AddIRCMessage>
+	<AddIRCMessage Author="Nora" TargetComp="APTDHS" Delay="-1">没问题</AddIRCMessage>
+	<AddIRCMessage Author="lulzer" TargetComp="APTDHS" Delay="-1.5">没问题</AddIRCMessage>
+	<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="11.0">@#PLAYERNAME# 欢迎加入Accet Project Team！</AddIRCMessage>
+	<AddIRCMessage Author="Nora" TargetComp="APTDHS" Delay="-5">@#PLAYERNAME# 欢迎加入Accet Project Team！</AddIRCMessage>
+	<AddIRCMessage Author="lulzer" TargetComp="APTDHS" Delay="-7">@#PLAYERNAME# 欢迎加入Accet Project Team！</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="APTDHS" Delay="14.0">受宠若惊...咦？只有这些人吗？</AddIRCMessage>
+    <AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="11.0">其他人都外出接取任务了，你也可以去任务里看看，我从共享服务器上传了一个新东西，记得查收</AddIRCMessage>
+    <AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="APTDrop" TargetFolderpath="bin" />
+  </OnConnect>
+
+</ConditionalActions>
+

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ComeMission" activeCheck="true" >
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>邮件来自Eric</sender>
+    <subject>Accet Project Team - 恭喜</subject>
+    <body>
+#PLAYERNAME#，恭喜你成功的通过了我们的考试，你现在可以到DHS里去看看了。
+</body>
+    <attachments>
+     <link comp="APTDHS" />
+    </attachments>
+  </email>
+</mission>

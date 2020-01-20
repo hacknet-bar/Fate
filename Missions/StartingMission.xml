@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="fileupload" target="SuperData1" file="angelsworld.AXE" path="bin" destTarget="APTDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="0">setFaction:APTDHS</missionStart>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/ComeMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>邮件来自Eric</sender>
+    <subject>Accet Project Team - 邀请</subject>
+    <body>
+#PLAYERNAME#.恭喜你成功的开启了新世界.
+从现在开始,这个世界或许会因为你一次偶然的举动而发生巨大的变化...
+之前你也应该就了解过我们组织的强大了吧？所以，我准备邀请你加入我们的组织，不过在此之前，你需要通过一个小测试，也就是获得一份加密后的文件，有位调查过的成员说过，它应该是一个加密后的exe文件，下载它，然后上传到共享服务器，你就通过了测试。
+</body>
+    <attachments>
+      <link comp="SuperData1" />
+      <link comp="APTDrop" />
+      <account comp="APTDrop" user="admin" pass="APT" />
+    </attachments>
+  </email>
+</mission>

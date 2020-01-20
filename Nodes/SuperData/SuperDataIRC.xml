@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SuperDataIRC" 
+          name="SuperData IRC" 
+          ip="2.2.2.2"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="dlcpc2" 
+          type="1" > 
+
+  <portsForCrack val="99999999" />
+  <ports>22, 21</ports>
+    <IRCDaemon themeColor="0,0,255" name="SuperData IRC" needsLogin="false">
+    <user name="Herry" color="0,245,255"/>
+    <user name="Hill" color="25,25,112"/>
+    
+	<post user="Herry">对了</post>
+  <post user="Hill">什么</post>
+  <post user="Herry">那款渗透测试框架</post>
+  <post user="Herry">我们团队马上就会研发出来了</post>
+  <post user="Hill">漂亮！</post>
+  <post user="Herry">哈哈</post>
+  <post user="Hill">不过庆祝归庆祝...我的Email密码忘记了</post>
+  <post user="Hill">你们技术部记得星期一上班的时候记得帮我重置一下</post>
+  <post user="Herry">放心，马上给你搞定</post>
+  <post user="Hill">谢谢！</post>
+  <post user="Herry">为了安全起见我已经把密码发在你的个人PC上了</post>
+  </IRCDaemon>  
+
+</Computer>
